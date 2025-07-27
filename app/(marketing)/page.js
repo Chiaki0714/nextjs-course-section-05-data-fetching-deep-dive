@@ -1,10 +1,10 @@
-import logo from '@/assets/logo.jpg';
+import logo from '@/assets/logo.jpg'
 import Link from 'next/link';
 
 export default function HomePage() {
   return (
-    <div id='home'>
-      <img src={logo.src} alt='A newspaper' />
+    <div id="home">
+      <img src={logo.src} alt="A newspaper" />
       <h1>A News Site For The Next Generation</h1>
       <p>
         Next News is here to deliver you all the latest news - concise &
@@ -26,7 +26,7 @@ export default function HomePage() {
       </p>
 
       <p>
-        <Link href='/news'>Read the latest news</Link>
+        <Link href="/news">Read the latest news</Link>
       </p>
     </div>
   );
